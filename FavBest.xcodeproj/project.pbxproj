@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8490582CEA75F1B8AEE2B710 /* Pods_FavBest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA5A9003C6BEC1F94AA5C5B /* Pods_FavBest.framework */; };
 		B64DCBB92C57F82E00782BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBB82C57F82E00782BD3 /* AppDelegate.swift */; };
 		B64DCBBB2C57F82E00782BD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBBA2C57F82E00782BD3 /* SceneDelegate.swift */; };
 		B64DCBBD2C57F82E00782BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBBC2C57F82E00782BD3 /* ViewController.swift */; };
-		B64DCBC02C57F82E00782BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64DCBBE2C57F82E00782BD3 /* Main.storyboard */; };
 		B64DCBC22C57F82F00782BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64DCBC12C57F82F00782BD3 /* Assets.xcassets */; };
 		B64DCBC52C57F82F00782BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64DCBC32C57F82F00782BD3 /* LaunchScreen.storyboard */; };
+		B64DCBD52C57FD1900782BD3 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBD42C57FD1900782BD3 /* MainTabbarController.swift */; };
+		B64DCBD72C58481F00782BD3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBD62C58481F00782BD3 /* HomeViewController.swift */; };
+		B64DCBDD2C5848B400782BD3 /* UpComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBDC2C5848B400782BD3 /* UpComingViewController.swift */; };
+		B64DCBDF2C5848BE00782BD3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBDE2C5848BE00782BD3 /* SearchViewController.swift */; };
+		B64DCBE12C5848CC00782BD3 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBE02C5848CC00782BD3 /* DownloadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DA5A9003C6BEC1F94AA5C5B /* Pods_FavBest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FavBest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFE5D7AF72EBF877A998E61 /* Pods-FavBest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavBest.release.xcconfig"; path = "Target Support Files/Pods-FavBest/Pods-FavBest.release.xcconfig"; sourceTree = "<group>"; };
 		B64DCBB52C57F82E00782BD3 /* FavBest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavBest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64DCBB82C57F82E00782BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B64DCBBA2C57F82E00782BD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B64DCBBC2C57F82E00782BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B64DCBBF2C57F82E00782BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B64DCBC12C57F82F00782BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B64DCBC42C57F82F00782BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B64DCBC62C57F82F00782BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64DCBD42C57FD1900782BD3 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		B64DCBD62C58481F00782BD3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B64DCBDC2C5848B400782BD3 /* UpComingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewController.swift; sourceTree = "<group>"; };
+		B64DCBDE2C5848BE00782BD3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B64DCBE02C5848CC00782BD3 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		FAB13DFD6C680357A7C307F7 /* Pods-FavBest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavBest.debug.xcconfig"; path = "Target Support Files/Pods-FavBest/Pods-FavBest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8490582CEA75F1B8AEE2B710 /* Pods_FavBest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B33F67D62C8E9CC365BCEF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAB13DFD6C680357A7C307F7 /* Pods-FavBest.debug.xcconfig */,
+				4AFE5D7AF72EBF877A998E61 /* Pods-FavBest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B648B3827F948D061E1B52F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DA5A9003C6BEC1F94AA5C5B /* Pods_FavBest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B64DCBAC2C57F82E00782BD3 = {
 			isa = PBXGroup;
 			children = (
 				B64DCBB72C57F82E00782BD3 /* FavBest */,
 				B64DCBB62C57F82E00782BD3 /* Products */,
+				8B33F67D62C8E9CC365BCEF6 /* Pods */,
+				B648B3827F948D061E1B52F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,99 @@
 		B64DCBB72C57F82E00782BD3 /* FavBest */ = {
 			isa = PBXGroup;
 			children = (
+				B64DCBCC2C57F83800782BD3 /* Scene */,
+				B64DCBCE2C57F85B00782BD3 /* Manager */,
+				B64DCBCF2C57F86500782BD3 /* Service */,
+				B64DCBD02C57F86B00782BD3 /* Model */,
+				B64DCBD12C57F87B00782BD3 /* Extantion */,
+				B64DCBCD2C57F84000782BD3 /* Support */,
+			);
+			path = FavBest;
+			sourceTree = "<group>";
+		};
+		B64DCBCC2C57F83800782BD3 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B64DCBD42C57FD1900782BD3 /* MainTabbarController.swift */,
+				B64DCBDB2C58487500782BD3 /* DownloadVC */,
+				B64DCBDA2C58486000782BD3 /* SearchVC */,
+				B64DCBD92C58484800782BD3 /* UpComingVC */,
+				B64DCBD82C58483100782BD3 /* HomeViC */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		B64DCBCD2C57F84000782BD3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				B64DCBB82C57F82E00782BD3 /* AppDelegate.swift */,
 				B64DCBBA2C57F82E00782BD3 /* SceneDelegate.swift */,
 				B64DCBBC2C57F82E00782BD3 /* ViewController.swift */,
-				B64DCBBE2C57F82E00782BD3 /* Main.storyboard */,
 				B64DCBC12C57F82F00782BD3 /* Assets.xcassets */,
 				B64DCBC32C57F82F00782BD3 /* LaunchScreen.storyboard */,
 				B64DCBC62C57F82F00782BD3 /* Info.plist */,
 			);
-			path = FavBest;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B64DCBCE2C57F85B00782BD3 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B64DCBCF2C57F86500782BD3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B64DCBD02C57F86B00782BD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B64DCBD12C57F87B00782BD3 /* Extantion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extantion;
+			sourceTree = "<group>";
+		};
+		B64DCBD82C58483100782BD3 /* HomeViC */ = {
+			isa = PBXGroup;
+			children = (
+				B64DCBD62C58481F00782BD3 /* HomeViewController.swift */,
+			);
+			path = HomeViC;
+			sourceTree = "<group>";
+		};
+		B64DCBD92C58484800782BD3 /* UpComingVC */ = {
+			isa = PBXGroup;
+			children = (
+				B64DCBDC2C5848B400782BD3 /* UpComingViewController.swift */,
+			);
+			path = UpComingVC;
+			sourceTree = "<group>";
+		};
+		B64DCBDA2C58486000782BD3 /* SearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				B64DCBDE2C5848BE00782BD3 /* SearchViewController.swift */,
+			);
+			path = SearchVC;
+			sourceTree = "<group>";
+		};
+		B64DCBDB2C58487500782BD3 /* DownloadVC */ = {
+			isa = PBXGroup;
+			children = (
+				B64DCBE02C5848CC00782BD3 /* DownloadViewController.swift */,
+			);
+			path = DownloadVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B64DCBC92C57F82F00782BD3 /* Build configuration list for PBXNativeTarget "FavBest" */;
 			buildPhases = (
+				ECC10CBBE77781E4A69EA999 /* [CP] Check Pods Manifest.lock */,
 				B64DCBB12C57F82E00782BD3 /* Sources */,
 				B64DCBB22C57F82E00782BD3 /* Frameworks */,
 				B64DCBB32C57F82E00782BD3 /* Resources */,
+				05C1A32ECF762E8B79D0148F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +245,65 @@
 			files = (
 				B64DCBC52C57F82F00782BD3 /* LaunchScreen.storyboard in Resources */,
 				B64DCBC22C57F82F00782BD3 /* Assets.xcassets in Resources */,
-				B64DCBC02C57F82E00782BD3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05C1A32ECF762E8B79D0148F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FavBest/Pods-FavBest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FavBest/Pods-FavBest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FavBest/Pods-FavBest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC10CBBE77781E4A69EA999 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FavBest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B64DCBB12C57F82E00782BD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64DCBD72C58481F00782BD3 /* HomeViewController.swift in Sources */,
+				B64DCBDF2C5848BE00782BD3 /* SearchViewController.swift in Sources */,
 				B64DCBBD2C57F82E00782BD3 /* ViewController.swift in Sources */,
 				B64DCBB92C57F82E00782BD3 /* AppDelegate.swift in Sources */,
+				B64DCBD52C57FD1900782BD3 /* MainTabbarController.swift in Sources */,
+				B64DCBDD2C5848B400782BD3 /* UpComingViewController.swift in Sources */,
+				B64DCBE12C5848CC00782BD3 /* DownloadViewController.swift in Sources */,
 				B64DCBBB2C57F82E00782BD3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +311,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B64DCBBE2C57F82E00782BD3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B64DCBBF2C57F82E00782BD3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B64DCBC32C57F82F00782BD3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,7 +359,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +422,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,16 +443,17 @@
 		};
 		B64DCBCA2C57F82F00782BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB13DFD6C680357A7C307F7 /* Pods-FavBest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FavBest/Info.plist;
+				INFOPLIST_FILE = /Users/denizotlu/Desktop/FavBest/FavBest/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,16 +471,17 @@
 		};
 		B64DCBCB2C57F82F00782BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFE5D7AF72EBF877A998E61 /* Pods-FavBest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FavBest/Info.plist;
+				INFOPLIST_FILE = /Users/denizotlu/Desktop/FavBest/FavBest/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
