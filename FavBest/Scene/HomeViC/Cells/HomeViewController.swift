@@ -9,25 +9,31 @@ import UIKit
 import SnapKit
 
 class HomeViewController: UIViewController {
+    
+    var Collec = CollectionTableViewCell()
+    
     private var tableView = UITableView ()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .brown
         setupUI()
         
     }
     
     func setupUI() {
-        
+                
         tableView.dataSource = self
         tableView.delegate = self
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(CollectionTableViewCell.self, forCellReuseIdentifier: CollectionTableViewCell.identifer)
         view.addSubview(tableView)
         tableView.snp.makeConstraints { make in
             make.top.bottom.left.right.equalToSuperview()
             
+            
+            let mainHeader = MainHeaderView(frame: CGRect(x: 0, y: 0, width: screenWidth, height: 0 * 0))
+            view.addSubview(mainHeader)
+            tableView.tableHeaderView = mainHeader
         }
         
     }
@@ -41,16 +47,18 @@ class HomeViewController: UIViewController {
         }
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-         
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-            cell.textLabel?.text = "test"
+            let cell = tableView.dequeueReusableCell(withIdentifier: CollectionTableViewCell.identifer, for: indexPath)
+            cell.backgroundColor = .yellow
             return cell
             
         }
         
         func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-            return 180
+            return 200
         }
+
+    
+
     }
 
 

@@ -42,7 +42,7 @@ class MainTabbarController: UITabBarController {
         vcThird.title = "Search"
         vcFourt.title = "Download"
         
-        tabBar.barTintColor = .systemTeal
+        tabBar.barTintColor = .systemBackground
         
         setViewControllers([vcFirst,vcSecond,vcThird,vcFourt], animated: true)
 
