@@ -12,12 +12,19 @@ class HomeViewController: UIViewController {
     
     var Collec = CollectionTableViewCell()
     
+    
     private var tableView = UITableView ()
+    
+    var arrayPopular = [MovieResult]()
+    var arrayUpcoming = [MovieResult]()
+    var arrayToprated = [MovieResult]()
+
+    var viewModel: HomeViewModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        setupUI()
+        viewModel?.delegate = self
+        viewModel?.load()
         
     }
     
@@ -31,14 +38,43 @@ class HomeViewController: UIViewController {
             make.top.bottom.left.right.equalToSuperview()
             
             
-            let mainHeader = MainHeaderView(frame: CGRect(x: 0, y: 0, width: screenWidth, height: 0 * 0))
-            view.addSubview(mainHeader)
+            let mainHeader = MainHeaderView(frame: CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight*0.35))
             tableView.tableHeaderView = mainHeader
+            tableView.snp.makeConstraints { make in
+                make.top.equalToSuperview()
+
+            }
+            
+           // tableView.tableHeaderView = mainHeader
         }
         
     }
     
 }
+    
+
+extension HomeViewController: MovieListViewModelDelegate{
+    func handleOutput(_ output: MovieListViewModelOutput) {
+        switch output{
+            
+        case.popular(let popular):
+            self.arrayPopular = popular
+            print(popular)
+            
+        case .upComing(let upcoming):
+            self.arrayUpcoming = upcoming
+            print(upcoming)
+
+        case .topRated(let topRated):
+            self.arrayToprated = topRated
+            print(topRated)
+
+        case .error(let error):
+            print(error)
+        }
+    }
+}
+    
     
     extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
         

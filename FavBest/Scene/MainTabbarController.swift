@@ -27,7 +27,7 @@ class MainTabbarController: UITabBarController {
         
     func createTabbar() {
 
-        let vcFirst = UINavigationController(rootViewController: HomeViewController())
+        let vcFirst = UINavigationController(rootViewController: MovieListBuilder.make())
         let vcSecond = UINavigationController(rootViewController: UpComingViewController())
         let vcThird = UINavigationController(rootViewController: SearchViewController())
         let vcFourt = UINavigationController(rootViewController: DownloadViewController())

@@ -40,6 +40,8 @@ class CollectionTableViewCell: UITableViewCell, UICollectionViewDataSource, UICo
             make.left.equalTo(contentView.snp.left)
             make.right.equalTo(contentView.snp.right)
             make.bottom.equalTo(contentView.snp.bottom)
+            
+            
         }
         
         
