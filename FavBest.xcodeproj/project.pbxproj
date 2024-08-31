@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8490582CEA75F1B8AEE2B710 /* Pods_FavBest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA5A9003C6BEC1F94AA5C5B /* Pods_FavBest.framework */; };
+		B64695A72C82700000033BD5 /* Section n tableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64695A62C82700000033BD5 /* Section n tableview.swift */; };
 		B64DCBB92C57F82E00782BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBB82C57F82E00782BD3 /* AppDelegate.swift */; };
 		B64DCBBB2C57F82E00782BD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBBA2C57F82E00782BD3 /* SceneDelegate.swift */; };
 		B64DCBBD2C57F82E00782BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64DCBBC2C57F82E00782BD3 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		1DA5A9003C6BEC1F94AA5C5B /* Pods_FavBest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FavBest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AFE5D7AF72EBF877A998E61 /* Pods-FavBest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FavBest.release.xcconfig"; path = "Target Support Files/Pods-FavBest/Pods-FavBest.release.xcconfig"; sourceTree = "<group>"; };
+		B64695A62C82700000033BD5 /* Section n tableview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Section n tableview.swift"; sourceTree = "<group>"; };
 		B64DCBB52C57F82E00782BD3 /* FavBest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavBest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64DCBB82C57F82E00782BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B64DCBBA2C57F82E00782BD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,7 +112,6 @@
 			children = (
 				B6E4C4262C5ED92800B8AE61 /* Views */,
 				B64DCBCC2C57F83800782BD3 /* Scene */,
-				B64DCBCF2C57F86500782BD3 /* Service */,
 				B64DCBCE2C57F85B00782BD3 /* Manager */,
 				B64DCBD02C57F86B00782BD3 /* Model */,
 				B64DCBD12C57F87B00782BD3 /* Extantion */,
@@ -127,6 +128,7 @@
 				B64DCBDA2C58486000782BD3 /* SearchVC */,
 				B64DCBD92C58484800782BD3 /* UpComingVC */,
 				B64DCBD82C58483100782BD3 /* HomeViC */,
+				B64DCBCF2C57F86500782BD3 /* Service */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				B6C3F39F2C5A968700AA3DCA /* CGFloat.swift */,
+				B64695A62C82700000033BD5 /* Section n tableview.swift */,
 			);
 			path = Extantion;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				B6E4C4282C5F823300B8AE61 /* HomeViewModelBuilder.swift in Sources */,
 				B64DCBD52C57FD1900782BD3 /* MainTabbarController.swift in Sources */,
 				B64DCBDD2C5848B400782BD3 /* UpComingViewController.swift in Sources */,
+				B64695A72C82700000033BD5 /* Section n tableview.swift in Sources */,
 				B6E4C4212C5E8BC200B8AE61 /* HomeViewModelContracts.swift in Sources */,
 				B64DCBE12C5848CC00782BD3 /* DownloadViewController.swift in Sources */,
 				B6E4C41E2C5E839600B8AE61 /* ApiCaller.swift in Sources */,

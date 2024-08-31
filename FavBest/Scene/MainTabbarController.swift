@@ -12,19 +12,14 @@ import SnapKit
 
 class MainTabbarController: UITabBarController {
 
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+    //    view.backgroundColor = .black
         
-        view.backgroundColor = .systemBackground
-
         createTabbar()
-
+        
     }
   
-        
     func createTabbar() {
 
         let vcFirst = UINavigationController(rootViewController: MovieListBuilder.make())
@@ -42,7 +37,7 @@ class MainTabbarController: UITabBarController {
         vcThird.title = "Search"
         vcFourt.title = "Download"
         
-        tabBar.barTintColor = .systemBackground
+        tabBar.barTintColor = .black
         
         setViewControllers([vcFirst,vcSecond,vcThird,vcFourt], animated: true)
 
